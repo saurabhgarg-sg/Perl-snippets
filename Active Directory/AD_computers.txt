@@ -1,0 +1,122 @@
+
+dn: CN=F3050-205-31,CN=Computers,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+objectClass: computer
+cn: F3050-205-31
+description: Network Appliance Filer
+distinguishedName: 
+ CN=F3050-205-31,CN=Computers,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+instanceType: 4
+whenCreated: 20070220080544.0Z
+whenChanged: 20070220080544.0Z
+uSNCreated: 21054
+uSNChanged: 21057
+name: F3050-205-31
+objectGUID:: 2GP0sEAON0CTfFSTbgW3EA==
+userAccountControl: 69632
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 128164323519219398
+localPolicyFlags: 0
+pwdLastSet: 128164323447969398
+primaryGroupID: 515
+objectSid:: AQUAAAAAAAUVAAAAybr1T4Gur722EAI5UAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 1
+sAMAccountName: F3050-205-31$
+sAMAccountType: 805306369
+operatingSystem: OnTap
+operatingSystemVersion: NetApp Release mainN_070214_2300
+dNSHostName: f3050-205-31.lab.eng.btc.netapp.in
+servicePrincipalName: nfs/f3050-205-31.lab.eng.btc.netapp.in
+servicePrincipalName: nfs/f3050-205-31
+servicePrincipalName: HOST/f3050-205-31.lab.eng.btc.netapp.in
+servicePrincipalName: HOST/f3050-205-31
+objectCategory: 
+ CN=Computer,CN=Schema,CN=Configuration,DC=cifsqa1,DC=lab,DC=eng,DC=btc,DC=neta
+ pp,DC=in
+isCriticalSystemObject: FALSE
+
+dn: CN=DC2,OU=Domain Controllers,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+objectClass: computer
+cn: DC2
+distinguishedName: 
+ CN=DC2,OU=Domain Controllers,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+instanceType: 4
+whenCreated: 20070207221947.0Z
+whenChanged: 20070207224907.0Z
+uSNCreated: 12291
+uSNChanged: 13795
+name: DC2
+objectGUID:: QkYhlptX50GH3VCaClpLBQ==
+userAccountControl: 532480
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 128163083814062500
+localPolicyFlags: 0
+pwdLastSet: 128153603873906250
+primaryGroupID: 516
+objectSid:: AQUAAAAAAAUVAAAAybr1T4Gur722EAI56AMAAA==
+accountExpires: 9223372036854775807
+logonCount: 3
+sAMAccountName: DC2$
+sAMAccountType: 805306369
+operatingSystem: Windows Server 2003
+operatingSystemVersion: 5.2 (3790)
+operatingSystemServicePack: Service Pack 1
+serverReferenceBL: 
+ CN=DC2,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=cifs
+ qa1,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+dNSHostName: DC2.cifsqa2.lab.eng.btc.netapp.in
+rIDSetReferences: 
+ CN=RID Set,CN=DC2,OU=Domain Controllers,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=net
+ app,DC=in
+servicePrincipalName: 
+ ldap/DC2.cifsqa2.lab.eng.btc.netapp.in/ForestDnsZones.cifsqa1.lab.eng.btc.neta
+ pp.in
+servicePrincipalName: 
+ ldap/DC2.cifsqa2.lab.eng.btc.netapp.in/DomainDnsZones.cifsqa2.lab.eng.btc.neta
+ pp.in
+servicePrincipalName: 
+ NtFrs-88f5d2bd-b646-11d2-a6d3-00c04fc9b232/DC2.cifsqa2.lab.eng.btc.netapp.in
+servicePrincipalName: DNS/DC2.cifsqa2.lab.eng.btc.netapp.in
+servicePrincipalName: 
+ GC/DC2.cifsqa2.lab.eng.btc.netapp.in/cifsqa1.lab.eng.btc.netapp.in
+servicePrincipalName: HOST/DC2.cifsqa2.lab.eng.btc.netapp.in/CIFSQA2
+servicePrincipalName: HOST/DC2
+servicePrincipalName: HOST/DC2.cifsqa2.lab.eng.btc.netapp.in
+servicePrincipalName: 
+ HOST/DC2.cifsqa2.lab.eng.btc.netapp.in/cifsqa2.lab.eng.btc.netapp.in
+servicePrincipalName: 
+ E3514235-4B06-11D1-AB04-00C04FC2DCD2/3f4a3bb7-fb3f-47a9-b8f1-e65e98d9d11d/cifs
+ qa2.lab.eng.btc.netapp.in
+servicePrincipalName: 
+ ldap/3f4a3bb7-fb3f-47a9-b8f1-e65e98d9d11d._msdcs.cifsqa1.lab.eng.btc.netapp.in
+servicePrincipalName: ldap/DC2.cifsqa2.lab.eng.btc.netapp.in/CIFSQA2
+servicePrincipalName: ldap/DC2
+servicePrincipalName: ldap/DC2.cifsqa2.lab.eng.btc.netapp.in
+servicePrincipalName: 
+ ldap/DC2.cifsqa2.lab.eng.btc.netapp.in/cifsqa2.lab.eng.btc.netapp.in
+objectCategory: 
+ CN=Computer,CN=Schema,CN=Configuration,DC=cifsqa1,DC=lab,DC=eng,DC=btc,DC=neta
+ pp,DC=in
+isCriticalSystemObject: TRUE
+frsComputerReferenceBL: 
+ CN=DC2,CN=Domain System Volume (SYSVOL share),CN=File Replication Service,CN=S
+ ystem,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+

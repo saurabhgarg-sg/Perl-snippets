@@ -1,0 +1,277 @@
+
+dn: CN=Administrator,CN=Users,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Administrator
+description: Built-in account for administering the computer/domain
+distinguishedName: 
+ CN=Administrator,CN=Users,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+instanceType: 4
+whenCreated: 20070207215827.0Z
+whenChanged: 20070207223456.0Z
+uSNCreated: 8194
+memberOf: 
+ CN=Group Policy Creator Owners,CN=Users,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=net
+ app,DC=in
+memberOf: 
+ CN=Domain Admins,CN=Users,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+memberOf: 
+ CN=Administrators,CN=Builtin,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+uSNChanged: 12495
+name: Administrator
+objectGUID:: aWEFXkAQOEyV4kuB2qd50w==
+userAccountControl: 66048
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 128153587705008814
+lastLogoff: 0
+lastLogon: 128164376694453818
+pwdLastSet: 128153575572500000
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAybr1T4Gur722EAI59AEAAA==
+adminCount: 1
+accountExpires: 9223372036854775807
+logonCount: 9
+sAMAccountName: Administrator
+sAMAccountType: 805306368
+objectCategory: 
+ CN=Person,CN=Schema,CN=Configuration,DC=cifsqa1,DC=lab,DC=eng,DC=btc,DC=netapp
+ ,DC=in
+isCriticalSystemObject: TRUE
+
+dn: CN=Guest,CN=Users,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Guest
+description: Built-in account for guest access to the computer/domain
+distinguishedName: 
+ CN=Guest,CN=Users,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+instanceType: 4
+whenCreated: 20070207215827.0Z
+whenChanged: 20070207215827.0Z
+uSNCreated: 8195
+memberOf: CN=Guests,CN=Builtin,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+uSNChanged: 8195
+name: Guest
+objectGUID:: K58xuoUaIk+XPDAp4qFSAw==
+userAccountControl: 66082
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 514
+objectSid:: AQUAAAAAAAUVAAAAybr1T4Gur722EAI59QEAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: Guest
+sAMAccountType: 805306368
+objectCategory: 
+ CN=Person,CN=Schema,CN=Configuration,DC=cifsqa1,DC=lab,DC=eng,DC=btc,DC=netapp
+ ,DC=in
+isCriticalSystemObject: TRUE
+
+dn: CN=krbtgt,CN=Users,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: krbtgt
+description: Key Distribution Center Service Account
+distinguishedName: 
+ CN=krbtgt,CN=Users,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+instanceType: 4
+whenCreated: 20070207221947.0Z
+whenChanged: 20070207223456.0Z
+uSNCreated: 12297
+uSNChanged: 12503
+showInAdvancedViewOnly: TRUE
+name: krbtgt
+objectGUID:: roQLDOgy2E+KoBsK5QrHZQ==
+userAccountControl: 514
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 128153603881562500
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAybr1T4Gur722EAI59gEAAA==
+adminCount: 1
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: krbtgt
+sAMAccountType: 805306368
+servicePrincipalName: kadmin/changepw
+objectCategory: 
+ CN=Person,CN=Schema,CN=Configuration,DC=cifsqa1,DC=lab,DC=eng,DC=btc,DC=netapp
+ ,DC=in
+isCriticalSystemObject: TRUE
+
+dn: CN=CIFSQA1$,CN=Users,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: CIFSQA1$
+distinguishedName: 
+ CN=CIFSQA1$,CN=Users,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+instanceType: 4
+whenCreated: 20070207221954.0Z
+whenChanged: 20070207221954.0Z
+uSNCreated: 12363
+uSNChanged: 12366
+name: CIFSQA1$
+objectGUID:: khBL/8NtbEumAYlyXGdlbQ==
+userAccountControl: 2080
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 128153603943281250
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAybr1T4Gur722EAI5TQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: CIFSQA1$
+sAMAccountType: 805306370
+objectCategory: 
+ CN=Person,CN=Schema,CN=Configuration,DC=cifsqa1,DC=lab,DC=eng,DC=btc,DC=netapp
+ ,DC=in
+isCriticalSystemObject: TRUE
+
+dn: CN=F3050-205-31,CN=Computers,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+objectClass: computer
+cn: F3050-205-31
+description: Network Appliance Filer
+distinguishedName: 
+ CN=F3050-205-31,CN=Computers,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+instanceType: 4
+whenCreated: 20070220080544.0Z
+whenChanged: 20070220080544.0Z
+uSNCreated: 21054
+uSNChanged: 21057
+name: F3050-205-31
+objectGUID:: 2GP0sEAON0CTfFSTbgW3EA==
+userAccountControl: 69632
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 128164323519219398
+localPolicyFlags: 0
+pwdLastSet: 128164323447969398
+primaryGroupID: 515
+objectSid:: AQUAAAAAAAUVAAAAybr1T4Gur722EAI5UAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 1
+sAMAccountName: F3050-205-31$
+sAMAccountType: 805306369
+operatingSystem: OnTap
+operatingSystemVersion: NetApp Release mainN_070214_2300
+dNSHostName: f3050-205-31.lab.eng.btc.netapp.in
+servicePrincipalName: nfs/f3050-205-31.lab.eng.btc.netapp.in
+servicePrincipalName: nfs/f3050-205-31
+servicePrincipalName: HOST/f3050-205-31.lab.eng.btc.netapp.in
+servicePrincipalName: HOST/f3050-205-31
+objectCategory: 
+ CN=Computer,CN=Schema,CN=Configuration,DC=cifsqa1,DC=lab,DC=eng,DC=btc,DC=neta
+ pp,DC=in
+isCriticalSystemObject: FALSE
+
+dn: CN=DC2,OU=Domain Controllers,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+objectClass: computer
+cn: DC2
+distinguishedName: 
+ CN=DC2,OU=Domain Controllers,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+instanceType: 4
+whenCreated: 20070207221947.0Z
+whenChanged: 20070207224907.0Z
+uSNCreated: 12291
+uSNChanged: 13795
+name: DC2
+objectGUID:: QkYhlptX50GH3VCaClpLBQ==
+userAccountControl: 532480
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 128163083814062500
+localPolicyFlags: 0
+pwdLastSet: 128153603873906250
+primaryGroupID: 516
+objectSid:: AQUAAAAAAAUVAAAAybr1T4Gur722EAI56AMAAA==
+accountExpires: 9223372036854775807
+logonCount: 3
+sAMAccountName: DC2$
+sAMAccountType: 805306369
+operatingSystem: Windows Server 2003
+operatingSystemVersion: 5.2 (3790)
+operatingSystemServicePack: Service Pack 1
+serverReferenceBL: 
+ CN=DC2,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=cifs
+ qa1,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+dNSHostName: DC2.cifsqa2.lab.eng.btc.netapp.in
+rIDSetReferences: 
+ CN=RID Set,CN=DC2,OU=Domain Controllers,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=net
+ app,DC=in
+servicePrincipalName: 
+ ldap/DC2.cifsqa2.lab.eng.btc.netapp.in/ForestDnsZones.cifsqa1.lab.eng.btc.neta
+ pp.in
+servicePrincipalName: 
+ ldap/DC2.cifsqa2.lab.eng.btc.netapp.in/DomainDnsZones.cifsqa2.lab.eng.btc.neta
+ pp.in
+servicePrincipalName: 
+ NtFrs-88f5d2bd-b646-11d2-a6d3-00c04fc9b232/DC2.cifsqa2.lab.eng.btc.netapp.in
+servicePrincipalName: DNS/DC2.cifsqa2.lab.eng.btc.netapp.in
+servicePrincipalName: 
+ GC/DC2.cifsqa2.lab.eng.btc.netapp.in/cifsqa1.lab.eng.btc.netapp.in
+servicePrincipalName: HOST/DC2.cifsqa2.lab.eng.btc.netapp.in/CIFSQA2
+servicePrincipalName: HOST/DC2
+servicePrincipalName: HOST/DC2.cifsqa2.lab.eng.btc.netapp.in
+servicePrincipalName: 
+ HOST/DC2.cifsqa2.lab.eng.btc.netapp.in/cifsqa2.lab.eng.btc.netapp.in
+servicePrincipalName: 
+ E3514235-4B06-11D1-AB04-00C04FC2DCD2/3f4a3bb7-fb3f-47a9-b8f1-e65e98d9d11d/cifs
+ qa2.lab.eng.btc.netapp.in
+servicePrincipalName: 
+ ldap/3f4a3bb7-fb3f-47a9-b8f1-e65e98d9d11d._msdcs.cifsqa1.lab.eng.btc.netapp.in
+servicePrincipalName: ldap/DC2.cifsqa2.lab.eng.btc.netapp.in/CIFSQA2
+servicePrincipalName: ldap/DC2
+servicePrincipalName: ldap/DC2.cifsqa2.lab.eng.btc.netapp.in
+servicePrincipalName: 
+ ldap/DC2.cifsqa2.lab.eng.btc.netapp.in/cifsqa2.lab.eng.btc.netapp.in
+objectCategory: 
+ CN=Computer,CN=Schema,CN=Configuration,DC=cifsqa1,DC=lab,DC=eng,DC=btc,DC=neta
+ pp,DC=in
+isCriticalSystemObject: TRUE
+frsComputerReferenceBL: 
+ CN=DC2,CN=Domain System Volume (SYSVOL share),CN=File Replication Service,CN=S
+ ystem,DC=cifsqa2,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in
+

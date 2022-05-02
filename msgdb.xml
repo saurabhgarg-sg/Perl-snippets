@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII" standalone="yes"?>
+<information>Creating a new NDMP NOTE object with filers f3170-215-175 and f3170-215-175</information>
+<action>Enabling NDMP on filer f3170-215-175</action>
+<action>Giving Incorrect option to ndmp command</action>
+<warning>usage:  ndmpd [on|off|status|probe [<session #>]|kill <session #>|killall|
+	password [<username>]|version [?|<max_version>]]
+	where <max_version> is the highest ndmp version (in the range of 3 to 4) allowed by the filer.</warning>
+<information></information>
+<action>Set ndmpd version to 4</action>
+<information>ndmpd version set to: 4 </information>
+<action>Setting option ndmpd.authtype plaintext,challenge</action>
+<information></information>
+<action>Getting the value of option ndmpd.authtype</action>
+<information>ndmpd.authtype               plaintext,challenge </information>
+<action>Set ndmpd version to 9</action>
+<error>ndmpd invalid version number: 9 </error>

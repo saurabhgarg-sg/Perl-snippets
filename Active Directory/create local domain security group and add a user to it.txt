@@ -1,0 +1,11 @@
+Const ADS_GROUP_TYPE_LOCAL_GROUP = &h4
+Const ADS_GROUP_TYPE_SECURITY_ENABLED = &h80000000
+Const ADS_PROPERTY_APPEND = 3
+
+Set objOU = GetObject("LDAP://DC=cifsqa1,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in")
+Set objGroup = objOU.Create("Group", "cn=grp1")
+objGroup.Put "sAMAccountName", "grp1"
+
+objGroup.Put "groupType", ADS_GROUP_TYPE_LOCAL_GROUP Or ADS_GROUP_TYPE_SECURITY_ENABLED
+objGroup.PutEx ADS_PROPERTY_APPEND, "member",Array("cn=burt 172407,cn=users,DC=cifsqa1,DC=lab,DC=eng,DC=btc,DC=netapp,DC=in")
+objGroup.SetInfo
